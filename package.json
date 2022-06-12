@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.11",
+    "postcss": "^8.4.14"
+  }
+}
