@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 const table = document.querySelector('.books-table');
 const tableBody = document.querySelector('tbody');
 const addBtn = document.querySelector('.add-btn');
@@ -27,7 +26,6 @@ function setOdinLibrary() {
 }
 
 function Book(title, author, noOfPages, readStatus) {
-    this.id = uuidv4();
     this.title = title;
     this.author = author;
     this.noOfPages = noOfPages;
